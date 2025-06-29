@@ -1,6 +1,6 @@
 {
   "name": "git",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "main": "index.js",
   "repository": "git@github.com:ruthvikbheemidi/git.git",
   "author": "Ruthvik Bheemidi <developer.bheemidi@gmail.com>",
