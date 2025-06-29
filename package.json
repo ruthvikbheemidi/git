@@ -7,6 +7,9 @@
   "license": "MIT",
   "scripts": {
     "release": "node version.js version",
+    "release:alpha": "node version.js alpha",
+    "release:qa": "node version.js rc",
+    "release:prod": "node version.js prod",
     "changelog": "node version.js changelog"
   }
 }
