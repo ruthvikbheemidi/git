@@ -1,8 +1,12 @@
 {
   "name": "git",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "main": "index.js",
   "repository": "git@github.com:ruthvikbheemidi/git.git",
   "author": "Ruthvik Bheemidi <developer.bheemidi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "node version.js version",
+    "changelog": "node version.js changelog"
+  }
 }
