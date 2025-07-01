@@ -5,9 +5,7 @@ const mode = process.argv[2] || 'version'; // version | alpha | rc | prod
 const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim();
 const pkgPath = './package.json';
 const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
-
-// test
-
+// Reverted test
 let version = pkg.version;
 
 // Utility to bump version components
